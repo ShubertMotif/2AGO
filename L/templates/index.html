@@ -1,0 +1,20 @@
+<!-- index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Homepage</h1>
+
+  {% for photo in photo_data %}
+    <div class="photo-container">
+      <a href="{{ url_for('photo_detail', photo_id=photo[3]) }}">
+        <img src="{{ url_for('static', filename='uploads/' + photo[0]) }}" alt="Photo">
+      </a>
+      <h3>{{ photo[1] }}</h3>
+      <p>{{ photo[2] }}</p>
+      <p>Uploaded by: {{ photo[4] }}</p>
+      <p>Prezzo in Dollari: {{ photo[5] }}</p>
+      <p>Prezzo in Monero: {{ photo[6] }}</p>
+    </div>
+    <hr>
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,15 @@
+<!-- photo_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Dettaglio Foto</h1>
+
+  <div class="photo-container">
+    <img src="{{ url_for('static', filename='uploads/' + photo.filename) }}" alt="Photo">
+    <h2>{{ photo.title }}</h2>
+    <p>{{ photo.description }}</p>
+    <p>Prezzo in Dollari: {{ photo.price_eur }}</p>
+    <p>Prezzo in Monero: {{ photo.price_monero }}</p>
+    <p>Provincia: {{ photo.province }}</p>
+  </div>
+{% endblock %}
