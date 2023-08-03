@@ -1,0 +1,62 @@
+<!-- portafoglio_monero.html -->
+{% extends "base.html" %}
+
+{% block title %}
+    Portafoglio Monero
+{% endblock %}
+
+{% block content %}
+    <h1>Portafoglio Monero</h1>
+    <a href="{{ url_for('send_monero_form') }}" class="btn btn-primary">Invia Monero</a>
+    <h3>Indirizzo del portafoglio:</h3>
+    <p id="address">{{ address }}</p>
+    <button onclick="copyText('address')">Copia Indirizzo</button>
+    <button onclick="toggleSeed()">Mostra Seed</button>
+    <div id="seedContainer" style="display: none;">
+        <h3>Seed del portafoglio:</h3>
+        <p id="seed">{{ seed }}</p>
+        <button onclick="copyText('seed')">Copia Seed</button>
+    </div>
+    <h3>Bilancio del portafoglio:</h3>
+    <p>{{ balance }} XMR</p>
+    <h3>Bilancio del sbloccato:</h3>
+    <p>{{ unlocked_balance }} XMR</p>
+    <h3>Bilancio in dollari</h3>
+    <p>{{balance_usd}} $</p>
+    <a href="{{ url_for('show_transactions') }}" class="btn btn-primary">Vedi tutte le Transazioni</a>
+    <p></p>
+    <button onclick="refreshPage()">Aggiorna</button>
+    <br>
+    <br>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Torna alla Dashboard</a>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        function copyText(elementId) {
+            var element = document.getElementById(elementId);
+            var text = element.textContent;
+            var tempElement = document.createElement("textarea");
+            tempElement.value = text;
+            document.body.appendChild(tempElement);
+            tempElement.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempElement);
+            var label = (elementId === 'address') ? 'Indirizzo' : 'Seed';
+            alert(label + " copiato negli appunti!");
+        }
+
+        function toggleSeed() {
+            var x = document.getElementById("seedContainer");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
+{% endblock %}
