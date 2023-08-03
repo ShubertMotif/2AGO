@@ -1,0 +1,22 @@
+<!-- conferma_trasazione.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Conferma Transazione</h1>
+
+  <h2>Dettagli dell'acquisto</h2>
+  <p>Monero inviati al venditore: {{ xmr_to_seller }} XMR</p>
+  <p>Dollari inviati al venditore: {{ dollars_to_seller }} $</p>
+  <p>Monero di commissione: {{ xmr_commission }} XMR</p>
+  <p>Dollari di commissione: {{ dollars_commission }} $</p>
+
+  <form action="{{ url_for('send_transaction', photo_id=photo_id) }}" method="post">
+    <input type="hidden" name="xmr_to_seller" value="{{ xmr_to_seller }}">
+    <input type="hidden" name="dollars_to_seller" value="{{ dollars_to_seller }}">
+    <input type="hidden" name="xmr_commission" value="{{ xmr_commission }}">
+    <input type="hidden" name="dollars_commission" value="{{ dollars_commission }}">
+    <input type="submit" value="Conferma Transazione">
+  </form>
+
+  <a href="{{ url_for('photo_detail', photo_id=photo_id) }}" class="btn btn-primary">Torna Indietro</a>
+{% endblock %}

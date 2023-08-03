@@ -1,0 +1,5 @@
+./monero-wallet-rpc --daemon-address stagenet.community.rino.io:38081 --wallet-dir wallet_python --rpc-bind-port 28080 --stagenet --disable-rpc-login
+
+python3 -m venv myenv
+
+source myenv/bin/activate

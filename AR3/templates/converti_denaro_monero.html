@@ -1,0 +1,35 @@
+<!-- converti_denaro_monero.html -->
+
+{% extends "base.html" %}
+
+{% block title %}
+    Converti Denaro/Monero
+{% endblock %}
+
+{% block content %}
+    <h1>Converti Denaro/Monero</h1>
+
+    <h2>Compra Monero con denaro</h2>
+
+    <!-- Aggiungi qui la sezione per l'acquisto di Monero con denaro -->
+
+    <h2>Vendi Monero per denaro</h2>
+
+    <!-- Aggiungi qui la sezione per la vendita di Monero per denaro -->
+
+    <h2>Proponi in vendita i tuoi Monero</h2>
+    <form action="{{ url_for('converti_denaro_monero') }}" method="post">
+        <label for="prezzo_monero">Prezzo in Dollari per Monero:</label>
+        <input type="number" step="0.01" min="0" name="prezzo_monero" id="prezzo_monero" required>
+        <br>
+        <input type="submit" value="Pubblica Offerta" {% if not current_user.is_authenticated %}disabled{% endif %}>
+    </form>
+
+    <h2>Offerte pubblicate dagli utenti</h2>
+    <ul>
+        {% for offerta in offerte %}
+            <li>{{ offerta.utente.username }} offre Monero a {{ offerta.prezzo_monero }} dollari per Monero</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
