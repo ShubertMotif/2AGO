@@ -1,0 +1,8 @@
+./monero-wallet-rpc --daemon-address stagenet.community.rino.io:38081 --wallet-dir wallet_python --rpc-bind-port 28080 --stagenet --disable-rpc-login
+
+python3 -m venv myenv
+
+source myenv/bin/activate
+
+CHIUDERE TUTTI SCREEN
+screen -ls | grep -o '[0-9]*\.' | while read -r session; do screen -S "${session::-1}" -X quit; done

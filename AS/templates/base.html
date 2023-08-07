@@ -1,0 +1,56 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App</title>
+  {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  {% endblock %}
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('cerca') }}">Cerca Foto</a></li>
+            <li><a href="{{ url_for('converti_denaro_monero') }}">Converti Denaro Monero</a></li>
+
+            {% if current_user.is_authenticated %}
+                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            {% else %}
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
+            {% endif %}
+
+        </ul>
+    </nav>
+
+    <div class="content">
+        {% if current_user.is_authenticated %}
+            <h2>Bentornato, {{ current_user.username }}!</h2>
+        {% endif %}
+
+        <hr>
+
+        {% block content %}{% endblock %}
+    </div>
+
+    {% block scripts %}
+    <script>
+        function copyText(elementId) {
+            var element = document.getElementById(elementId);
+            var text = element.innerText || element.textContent; // Usa innerText o textContent a seconda del supporto del browser
+            var tempElement = document.createElement("textarea");
+            tempElement.value = text;
+            document.body.appendChild(tempElement);
+            tempElement.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempElement);
+            var label = (elementId === 'address') ? 'Indirizzo' : 'Seed';
+            alert(label + " copiato negli appunti!");
+        }
+    </script>
+    {% endblock %}
+</body>
+</html>
