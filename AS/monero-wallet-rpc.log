@@ -264,3 +264,35 @@
 2023-08-07 21:04:38.253	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 52d3CKJeEGHEfzoL42opNdUJJLwqyb1wbS1c23qhYWgDavMkTzkx8e1Ev1E7fgro3aEJ8Ztttoa2fcruHJim9fJb8inMBZb
 2023-08-07 21:05:37.210	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 9.824361750878, with tx: <0f2253f2c95e6750b51d9b8f164eb497e92efde800a608157a26fa1bb79229bd>
 2023-08-07 21:05:37.210	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2350	Spent money: 9.900827060000, with tx: <0f2253f2c95e6750b51d9b8f164eb497e92efde800a608157a26fa1bb79229bd>
+2023-08-08 20:15:06.725	    7fe0a65c57c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-08 20:15:06.725	    7fe0a65c57c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-08 20:15:06.725	    7fe0a65c57c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-08 20:15:06.725	    7fe0a65c57c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-08 20:15:06.725	    7fe0a65c57c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-08 20:15:06.727	    7fe0a65c57c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-08 20:15:07.117	    7fe0a65c57c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-08 20:16:35.168	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:21:00.179	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:21:17.248	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 10.000000000000, with tx: <88b11e4d0afcd9589597d62b3aaac9bb398e0092294361189fb1e91b6e7d2355>
+2023-08-08 20:21:48.865	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:24:13.416	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 571ru7YbddK6HswJp6PbDCi55ndUgmTaRZoZVcpMucmvipJ1NS9EwY7dU6wESKtxkz6x1duknqpG4XSW4ppxs2jD8MsLXbE
+2023-08-08 20:25:27.916	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:7597	Requested ring size 11 too low, using 16
+2023-08-08 20:25:29.012	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:10062	needed_money + min_fee > balance_subtotal. THROW EXCEPTION: error::not_enough_money
+2023-08-08 20:25:43.185	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:27:41.044	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:28:38.131	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:30:05.777	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:30:52.433	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:31:39.632	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:35:40.976	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:36:02.688	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:7597	Requested ring size 11 too low, using 16
+2023-08-08 20:36:05.526	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.h:2501	amount=10.000000000000, real_output=15, real_output_in_tx_index=0, indexes: 6839828 6848885 6879945 6885936 6890535 6890624 6890643 6890782 6891293 6891811 6891994 6892166 6892229 6892245 6892249 6892305 
+2023-08-08 20:36:05.532	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.h:2501	amount=10.000000000000, real_output=15, real_output_in_tx_index=0, indexes: 6839828 6848885 6879945 6885936 6890535 6890624 6890643 6890782 6891293 6891811 6891994 6892166 6892229 6892245 6892249 6892305 
+2023-08-08 20:36:05.537	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.h:2501	amount=10.000000000000, real_output=15, real_output_in_tx_index=0, indexes: 6839828 6848885 6879945 6885936 6890535 6890624 6890643 6890782 6891293 6891811 6891994 6892166 6892229 6892245 6892249 6892305 
+2023-08-08 20:36:25.397	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:36:54.686	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 571ru7YbddK6HswJp6PbDCi55ndUgmTaRZoZVcpMucmvipJ1NS9EwY7dU6wESKtxkz6x1duknqpG4XSW4ppxs2jD8MsLXbE
+2023-08-08 20:37:05.717	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 0.186628126178, with tx: <946ce20a757e7aa6dc7bfab6225a8db02f4b28f2a2fc58141f43e709c4e13d54>
+2023-08-08 20:37:09.119	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58zgUTBtETM8mYzM7erRdf5LH4DeCDZ4ch4wC9MKzNsHezWtgDAyfow8NeoT1dFGxH8oHuVs5WWvD4TGiTHD8RFaV8V2v9p
+2023-08-08 20:37:28.107	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 9.811313961234, with tx: <946ce20a757e7aa6dc7bfab6225a8db02f4b28f2a2fc58141f43e709c4e13d54>
+2023-08-08 20:37:28.107	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2350	Spent money: 10.000000000000, with tx: <946ce20a757e7aa6dc7bfab6225a8db02f4b28f2a2fc58141f43e709c4e13d54>
+2023-08-08 20:37:57.657	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 571ru7YbddK6HswJp6PbDCi55ndUgmTaRZoZVcpMucmvipJ1NS9EwY7dU6wESKtxkz6x1duknqpG4XSW4ppxs2jD8MsLXbE

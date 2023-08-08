@@ -1,0 +1,156 @@
+2023-07-28 14:21:09.810	    7fe91905a7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-07-28 14:21:09.811	    7fe91905a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-07-28 14:21:09.811	    7fe91905a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-07-28 14:21:09.811	    7fe91905a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-07-28 14:21:09.811	    7fe91905a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-07-28 14:21:09.811	    7fe91905a7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-07-28 14:21:10.172	    7fe91905a7c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-07-28 15:05:44.399	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 5A2L924QnCDWETj4fvMCc4PkCL3YEyKCwGExVVqJwMKuHvqJkqQSkwMDLTgvEuARH2NpU2ApxjxTFMxAsRJ9E28yP4BAfv2
+2023-07-28 15:22:29.870	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8fd9423a45de23450a3c4be8e748f1f3f2b0a0f9454936b05373f506672265ab>
+2023-07-28 15:24:32.511	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8fd9423a45de23450a3c4be8e748f1f3f2b0a0f9454936b05373f506672265ab>
+2023-07-28 15:25:33.576	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <eab0727758fac9726e20273e2cc27fbbccea1133c1a13569389f2ff175945b3d>
+2023-07-28 15:25:53.928	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <eab0727758fac9726e20273e2cc27fbbccea1133c1a13569389f2ff175945b3d>
+2023-07-28 15:25:53.929	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a3f547a426195f66f2aaf16cc59da51494d4e0c6ebdad043964f413186fe0d43>
+2023-07-28 15:26:34.612	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a3f547a426195f66f2aaf16cc59da51494d4e0c6ebdad043964f413186fe0d43>
+2023-07-28 15:26:34.613	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <89cb0c48f16ddd8a147583c11e942fac693b2b5a5a6e814b9c518335584a26ec>
+2023-07-28 15:27:15.302	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <89cb0c48f16ddd8a147583c11e942fac693b2b5a5a6e814b9c518335584a26ec>
+2023-07-28 15:27:15.303	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <82ac316609eb4727db49938a6025cf7c995e60dc6aa1b289702d56c28d4299f9>
+2023-07-28 15:28:36.737	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <82ac316609eb4727db49938a6025cf7c995e60dc6aa1b289702d56c28d4299f9>
+2023-07-28 15:28:36.738	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d7ee2df5e073de88e348d8faf768a567d30975b414ad1ef3f847632c68b33262>
+2023-07-28 15:29:17.436	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d7ee2df5e073de88e348d8faf768a567d30975b414ad1ef3f847632c68b33262>
+2023-07-28 15:31:39.915	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d9911033bbc7038f31b5a19be085fb862cee95c7b6f2f63df962761921f6fcba>
+2023-07-28 15:32:00.267	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d9911033bbc7038f31b5a19be085fb862cee95c7b6f2f63df962761921f6fcba>
+2023-07-28 15:32:00.268	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d4885b0192093298d897605417108238a6cb88bb8f10b7e34d2beadafdb10b7a>
+2023-07-28 15:33:01.311	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d4885b0192093298d897605417108238a6cb88bb8f10b7e34d2beadafdb10b7a>
+2023-07-28 15:37:46.878	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <fd50d6c462507f56cd7c3fcf862bfda750ce6be99f7b8af030197f4b73671d29>
+2023-07-28 15:38:47.974	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <fd50d6c462507f56cd7c3fcf862bfda750ce6be99f7b8af030197f4b73671d29>
+2023-07-28 15:41:51.169	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c8bbbe4ae28740971b45ae59d80b7bd36548c88a1ee6c3551ecdbe43159c0abb>
+2023-07-28 15:42:31.869	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c8bbbe4ae28740971b45ae59d80b7bd36548c88a1ee6c3551ecdbe43159c0abb>
+2023-07-28 15:42:31.870	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d437b171453f5c27847b0032aa13f9ed3fc047066838c6beb666ad1c439917a3>
+2023-07-28 15:44:13.637	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0506a75fa4b481c12b82c4d4a7c8e1c0074283fdc6bf265bd7e99026f705f91b>
+2023-07-28 15:44:13.638	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d437b171453f5c27847b0032aa13f9ed3fc047066838c6beb666ad1c439917a3>
+2023-07-28 15:44:54.332	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0506a75fa4b481c12b82c4d4a7c8e1c0074283fdc6bf265bd7e99026f705f91b>
+2023-07-28 15:46:56.466	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <5e6408b927cdbe4f9f6ceeb146097128e09f93e0ac648d36a0110b23abd1455d>
+2023-07-28 15:48:38.240	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <5e6408b927cdbe4f9f6ceeb146097128e09f93e0ac648d36a0110b23abd1455d>
+2023-07-28 15:48:38.240	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <2d75b2e9c2b857417a3dccd0d01006857e6dcaf9792e99f18f84d805719b92a0>
+2023-07-28 15:50:20.044	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <2d75b2e9c2b857417a3dccd0d01006857e6dcaf9792e99f18f84d805719b92a0>
+2023-07-28 16:04:56.038	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <32589c324ab466f8b1dcb82024445588206f116b74dcbeb1162715eaceb17fec>
+2023-07-28 16:04:56.038	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c79d5ef3b93270c1ee2146527348e3c4994e2d1134d88cde62aedc20612534de>
+2023-07-28 16:06:17.441	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c79d5ef3b93270c1ee2146527348e3c4994e2d1134d88cde62aedc20612534de>
+2023-07-28 16:08:19.536	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <df257ae083998f5cdaad5c355c23cb000ca5f7193b856c6786d1e874a476cb01>
+2023-07-28 16:08:39.882	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <df257ae083998f5cdaad5c355c23cb000ca5f7193b856c6786d1e874a476cb01>
+2023-07-28 16:18:50.659	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d35ff14f95ddb8021a78cb74c41edfc9aaef027604d56af154e01ca5ff3d4f36>
+2023-07-28 16:23:35.786	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d35ff14f95ddb8021a78cb74c41edfc9aaef027604d56af154e01ca5ff3d4f36>
+2023-07-28 16:23:35.787	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <57f19b0b1c7572a58d86260da60f62c57c4217eb24e808efe56f7b636cf77310>
+2023-07-28 16:24:16.541	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <57f19b0b1c7572a58d86260da60f62c57c4217eb24e808efe56f7b636cf77310>
+2023-07-28 16:24:36.886	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <03e4ba57f11aef1cbf5c2f99124ed46710318d8875924ae452c648adba9693e7>
+2023-07-28 16:32:25.301	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <03e4ba57f11aef1cbf5c2f99124ed46710318d8875924ae452c648adba9693e7>
+2023-07-28 16:36:29.572	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1e562408df490ce428c8e8e7b8971a886a5e4dbcec553550c2aab1a940d928a9>
+2023-07-28 16:37:50.962	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1e562408df490ce428c8e8e7b8971a886a5e4dbcec553550c2aab1a940d928a9>
+2023-07-28 16:42:56.311	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0a0e2c1326c855e5d104d7153efa7d09ea75c63d34a82b133bbf6bbba7eeecfc>
+2023-07-28 16:45:18.700	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0a0e2c1326c855e5d104d7153efa7d09ea75c63d34a82b133bbf6bbba7eeecfc>
+2023-07-28 16:45:38.962	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <06fdab45f026fdbb9a5fa07bb9eea70cb10099d19d5eb470e95b5fe0cda67e4e>
+2023-07-28 16:48:42.175	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <06fdab45f026fdbb9a5fa07bb9eea70cb10099d19d5eb470e95b5fe0cda67e4e>
+2023-07-28 16:48:42.175	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <ce3d1b2bd420820e9f7de6c9ebf67871e70a550cf6ff31116c8cde575695046c>
+2023-07-28 16:49:22.909	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <ce3d1b2bd420820e9f7de6c9ebf67871e70a550cf6ff31116c8cde575695046c>
+2023-07-28 16:58:32.621	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1a3ffd24a3229e682846d0f1748e652e7bb7d48dc9430789bc0c9e1a67a14e6e>
+2023-07-28 17:00:55.147	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1a3ffd24a3229e682846d0f1748e652e7bb7d48dc9430789bc0c9e1a67a14e6e>
+2023-07-28 17:17:33.952	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <95049679c35f4d9c2a046731c0ecd1537dea0776ecfccd1b135dc53537f1cbc4>
+2023-07-28 17:18:14.677	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <95049679c35f4d9c2a046731c0ecd1537dea0776ecfccd1b135dc53537f1cbc4>
+2023-07-28 17:18:14.677	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0447acf84db6ee324f261c8c4a6960b44863e45ac754819f5491eca07f83b743>
+2023-07-28 17:19:36.056	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0447acf84db6ee324f261c8c4a6960b44863e45ac754819f5491eca07f83b743>
+2023-07-28 17:28:05.817	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a5431346fa7dad41241f36492fdab9fe3d009153bea3bc23d864610715149d71>
+2023-07-28 17:28:46.468	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a5431346fa7dad41241f36492fdab9fe3d009153bea3bc23d864610715149d71>
+2023-07-28 17:29:47.633	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <78249a15a54ad68c559a8ab77e871dc6cc0556ea7f61ed68a808300a289e7153>
+2023-07-28 17:30:48.784	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <9e196c141d98611860c476a692942c7945f43f94c674de284e83234fe627562c>
+2023-07-28 17:30:48.784	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <78249a15a54ad68c559a8ab77e871dc6cc0556ea7f61ed68a808300a289e7153>
+2023-07-28 17:34:12.503	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <9e196c141d98611860c476a692942c7945f43f94c674de284e83234fe627562c>
+2023-07-28 17:35:34.005	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <060c02f5be01d8b9c79404f40a19f63aff9d8e3070184757dcab48d5e5592ae5>
+2023-07-28 17:36:55.419	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <060c02f5be01d8b9c79404f40a19f63aff9d8e3070184757dcab48d5e5592ae5>
+2023-07-28 17:41:20.465	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <21a07a3b4e5d9851eea17b89cb81b4704046601eb77069ab95ab380771bacf5c>
+2023-07-28 17:41:40.845	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <21a07a3b4e5d9851eea17b89cb81b4704046601eb77069ab95ab380771bacf5c>
+2023-07-28 17:43:02.234	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <e113ec71cfa39880960d52fcc71599aef2b7115d440b918694542323198e102c>
+2023-07-28 17:43:22.575	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <e113ec71cfa39880960d52fcc71599aef2b7115d440b918694542323198e102c>
+2023-07-28 17:43:22.575	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1780c9905e6587682d0c850fcbde9ed4a10e74df616c520d693b9ad8c510059f>
+2023-07-28 17:44:24.111	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1780c9905e6587682d0c850fcbde9ed4a10e74df616c520d693b9ad8c510059f>
+2023-07-28 17:44:24.111	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <da34deae7ce53c1958c43eb0da37b58645ddb8de144929782bf76cbd749ff730>
+2023-07-28 17:48:08.001	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <da34deae7ce53c1958c43eb0da37b58645ddb8de144929782bf76cbd749ff730>
+2023-07-28 17:50:10.147	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <6bac7d4d2afa10d6f9d64ae73d03b84492daa20ac86b3147639e4b4f3c334e03>
+2023-07-28 17:50:51.340	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <6bac7d4d2afa10d6f9d64ae73d03b84492daa20ac86b3147639e4b4f3c334e03>
+2023-07-28 17:54:35.181	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <92f1dc4c2ae9d07cfe538c7266e559fc78654517be4c4da5049fb27e9ecaf544>
+2023-07-28 17:57:38.447	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <92f1dc4c2ae9d07cfe538c7266e559fc78654517be4c4da5049fb27e9ecaf544>
+2023-07-28 18:13:16.039	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <4297c8c0ba63b2022b1abb45b27487d6339e8954c28845085ded8848f2e0b92b>
+2023-07-28 18:19:02.245	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <4297c8c0ba63b2022b1abb45b27487d6339e8954c28845085ded8848f2e0b92b>
+2023-07-28 18:21:04.425	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <e09eedba390a155710075500cc68341525936578df534da8b213fae27059f846>
+2023-07-28 18:24:28.091	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <e09eedba390a155710075500cc68341525936578df534da8b213fae27059f846>
+2023-07-28 18:26:09.925	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <cb1541336964ee4a6b8e8f8448dba0008f142e83318e45609cc7c8d897aa5dc2>
+2023-07-28 18:26:50.630	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <cb1541336964ee4a6b8e8f8448dba0008f142e83318e45609cc7c8d897aa5dc2>
+2023-07-28 18:26:50.630	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8edcdf445972b7dc201e9980af207bcfa29e7701620a5dd04c5023fc48ca9c33>
+2023-07-28 18:29:33.460	    7fe912bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8edcdf445972b7dc201e9980af207bcfa29e7701620a5dd04c5023fc48ca9c33>
+2023-07-28 18:29:33.460	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <f84d40cf78b08aa24b2311eec34866db6effe6565e3fdb1b32c96455bae3f9fa>
+2023-07-28 18:30:54.961	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <f84d40cf78b08aa24b2311eec34866db6effe6565e3fdb1b32c96455bae3f9fa>
+2023-07-28 18:38:02.531	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c6f38191e670bb0842c53b877c5042a3c41790b941bfc34d98eafdc532220509>
+2023-07-28 18:39:03.572	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <c6f38191e670bb0842c53b877c5042a3c41790b941bfc34d98eafdc532220509>
+2023-07-28 18:39:03.572	    7fe913fff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1e9c8920238b668af9581915c755fb5dc9dd11ae5d5a810270437c51cd5b0623>
+2023-07-28 18:40:04.625	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1e9c8920238b668af9581915c755fb5dc9dd11ae5d5a810270437c51cd5b0623>
+2023-07-28 18:40:04.625	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <6e519c6b9154b308d4415578038ea2aee7b1f3d99a883c1906de1fb3052994e4>
+2023-07-28 18:40:45.321	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <6e519c6b9154b308d4415578038ea2aee7b1f3d99a883c1906de1fb3052994e4>
+2023-07-28 18:40:45.321	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <4fc4d9a6fe5bee9c4fd75ee3de3f999d593172fdcb05f0f6dbdfb170fdbd9f0f>
+2023-07-28 18:42:06.725	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <4fc4d9a6fe5bee9c4fd75ee3de3f999d593172fdcb05f0f6dbdfb170fdbd9f0f>
+2023-07-28 18:42:06.725	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1889a28b1a11302dd7a56c10b336cc93554364cb058d19f6fb0486960ca025ee>
+2023-07-28 18:46:52.371	    7fe9130fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <1889a28b1a11302dd7a56c10b336cc93554364cb058d19f6fb0486960ca025ee>
+2023-07-28 18:46:52.371	    7fe9126fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0f86d087f206888fbf6fc9dba7a762a60673afa068920852c894c19e391b6414>
+2023-07-28 18:49:56.187	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <0f86d087f206888fbf6fc9dba7a762a60673afa068920852c894c19e391b6414>
+2023-07-28 18:49:56.187	    7fe913afe640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <3968211443ed94c48818d909ff2da26cf003009111e76bdc54234795f2fb28df>
+2023-07-28 18:51:38.088	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <3968211443ed94c48818d909ff2da26cf003009111e76bdc54234795f2fb28df>
+2023-07-28 18:52:18.777	    7fe9135fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8ac773e7dbc4bbc696f5bcbc8697963acf1f26b9cb6f279ac7b3b8afa3eef2e0>
+2023-07-28 18:57:44.609	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8ac773e7dbc4bbc696f5bcbc8697963acf1f26b9cb6f279ac7b3b8afa3eef2e0>
+2023-07-28 18:59:46.768	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8e67ae45def2cb469ac27f43f8cc164183789e3f72cea55d7284427b76946185>
+2023-07-28 19:00:47.838	    7fe9121f9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <8e67ae45def2cb469ac27f43f8cc164183789e3f72cea55d7284427b76946185>
+2023-07-29 21:10:04.837	    7fda29bbe7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-07-29 21:10:04.837	    7fda29bbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-07-29 21:10:04.837	    7fda29bbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-07-29 21:10:04.837	    7fda29bbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-07-29 21:10:04.837	    7fda29bbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-07-29 21:10:04.839	    7fda29bbe7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-07-29 21:10:05.269	    7fda29bbe7c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-07-29 21:11:06.732	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-07-29 21:11:06.736	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-07-29 21:11:26.744	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-07-29 21:11:26.744	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-07-29 19:13:09.614	    7fc8af73a7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-07-29 19:13:09.615	    7fc8af73a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-07-29 19:13:09.615	    7fc8af73a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-07-29 19:13:09.615	    7fc8af73a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-07-29 19:13:09.615	    7fc8af73a7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-07-29 19:13:09.617	    7fc8af73a7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-07-29 19:13:10.463	    7fc8af73a7c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-07-29 19:13:45.378	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 59U4aazwpNE1t1Lup13shNcPaeQuvXLeYHy9djti1QgK4C5EEZXjcqwbVtjAGu2t532NVePP3Ze92dsJRwy5i32bA9hQPvq
+2023-07-29 19:15:26.230	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 59U4aazwpNE1t1Lup13shNcPaeQuvXLeYHy9djti1QgK4C5EEZXjcqwbVtjAGu2t532NVePP3Ze92dsJRwy5i32bA9hQPvq
+2023-07-29 19:22:33.567	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 10.000000000000, with tx: <a7b2a2f928f689865958902bd7c22302d23a5fec4bd850cd44bc0e00cab956c5>
+2023-07-29 21:13:39.719	    7f93f72947c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-07-29 21:13:39.720	    7f93f72947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-07-29 21:13:39.720	    7f93f72947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-07-29 21:13:39.721	    7f93f72947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-07-29 21:13:39.721	    7f93f72947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-07-29 21:13:39.721	    7f93f72947c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-07-29 21:13:40.400	    7f93f72947c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-07-29 21:14:00.244	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4841	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2023-07-29 21:17:13.005	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:17:14.193	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:17:15.070	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:17:32.197	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:22:46.649	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 10.000000000000, with tx: <14fc5c06fbcf87fe8327660bbea07333b3dd72fe8730194b91d08dc9344b6efc>
+2023-07-29 21:34:28.749	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:36:37.225	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 21:37:09.652	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 10.000000000000, with tx: <dac3bb2b578507006da55740f618178d1d9044a4e51e7003765e4a50564b6bd4>
+2023-07-29 21:38:41.063	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:7597	Requested ring size 1 too low, using 16
+2023-07-29 21:38:44.021	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:10065	needed_money + min_fee > unlocked_balance_subtotal. THROW EXCEPTION: error::not_enough_unlocked_money
+2023-07-29 21:38:44.039	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:7597	Requested ring size 1 too low, using 16
+2023-07-29 21:38:44.654	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:10065	needed_money + min_fee > unlocked_balance_subtotal. THROW EXCEPTION: error::not_enough_unlocked_money
+2023-07-29 21:40:00.187	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-29 22:06:19.425	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58EbxNYcTg6RKcgp6gDPhDTGSiA1zpESDS3UdD9DeUieFu9UeG8A2JTbDEb55cnFGki7DLBW1ZjXKXBtJJ6HHCvWMrMn1Px
+2023-07-30 10:31:31.362	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-07-30 10:31:31.363	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-07-30 10:31:52.083	    7f93f5bfb640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d019d58822b844891c0223c799c01322c13ab2576caa2e9fd4fd6081a50d49db>
+2023-07-30 11:56:51.246	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 58noBkGmGxK1i5DmMdGZ4SiEAx9bdZFNz5sgGXhqd7SaDi72oAt55NCbcZMc5gZohUB9GrK9sRfmRM2NFvHB5NJuJNiUyog
