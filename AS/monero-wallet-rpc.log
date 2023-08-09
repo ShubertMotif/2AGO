@@ -296,3 +296,27 @@
 2023-08-08 20:37:28.107	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2219	Received money: 9.811313961234, with tx: <946ce20a757e7aa6dc7bfab6225a8db02f4b28f2a2fc58141f43e709c4e13d54>
 2023-08-08 20:37:28.107	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:2350	Spent money: 10.000000000000, with tx: <946ce20a757e7aa6dc7bfab6225a8db02f4b28f2a2fc58141f43e709c4e13d54>
 2023-08-08 20:37:57.657	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5569	Loaded wallet keys file, with public address: 571ru7YbddK6HswJp6PbDCi55ndUgmTaRZoZVcpMucmvipJ1NS9EwY7dU6wESKtxkz6x1duknqpG4XSW4ppxs2jD8MsLXbE
+2023-08-08 21:31:28.938	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-08 21:31:28.941	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 11:03:21.507	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 11:03:21.507	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 11:03:42.875	    7fe0a52fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <ec35e432f36fa9f5be2678138f48a6c17e454c6edd769a5fa2963b1cebd6eace>
+2023-08-09 11:03:42.876	    7fe0a4df9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <d192ce11799e731c4ef8c9dffd1185f50fbb3f913a66e3d710c72d78a85c1e55>
+2023-08-09 11:03:42.879	    7fe0a52fa640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <6274e6acf2bf89b27f1284fcc54823555365331c460c47de711bf8f7ef46e6bf>
+2023-08-09 13:09:22.354	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 13:09:22.355	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 13:09:44.271	    7fe09f0fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <dc022ef00ce521366f6c487be0c782144b8fe8a6aeb117659c0addca4c29bd12>
+2023-08-09 13:28:35.468	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 13:28:35.468	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 13:55:54.428	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <5424b1880aba16e2059c9a33b9db0c31b9fcba6913cbdb9cdcf6698b86c729ce>
+2023-08-09 13:57:40.217	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <5424b1880aba16e2059c9a33b9db0c31b9fcba6913cbdb9cdcf6698b86c729ce>
+2023-08-09 14:56:51.707	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 14:56:51.707	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 15:22:34.382	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 15:22:34.383	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 20:04:57.236	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:14406	!r. THROW EXCEPTION: tools::error::no_connection_to_daemon
+2023-08-09 20:04:57.237	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:155	Exception at while refreshing, what=no connection to daemon
+2023-08-09 20:05:17.706	    7fe09f0fc640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <9a1cdd429442c363b51ffaedc7d36d8d3099ed76908b9b2d3172ff88215cb1db>
+2023-08-09 20:05:17.706	    7fe0a48f8640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <ea6b233a41bc9c3885323e18af2af5384a0e862f52e6da72d482fc6573680580>
+2023-08-09 20:35:42.214	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <7b4a032394c4bf3ae5baffa6233e17a1db22e2a36150d7b2813f2e5bcb845762>
+2023-08-09 20:37:23.987	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <7b4a032394c4bf3ae5baffa6233e17a1db22e2a36150d7b2813f2e5bcb845762>
