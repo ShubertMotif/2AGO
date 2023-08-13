@@ -1,0 +1,35 @@
+<!-- transactions.html -->
+{% extends "base.html" %}
+
+{% block title %}
+    Lista Transazioni
+{% endblock %}
+
+{% block content %}
+    <h1>Lista Transazioni</h1>
+    <a href="{{ url_for('portafoglio_monero') }}" class="btn btn-primary">Torna al Portafoglio Monero</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Hash</th>
+                <th>Importo</th>
+                <th>Tipo</th>
+                <th>Destinatario</th> <!-- Nuova colonna per l'indirizzo del destinatario -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.timestamp}}</td>
+                    <td>{{ transaction.txid }}</td>
+                    <td>{{ transaction.amount / 1000000000000 }}</td>
+                    <td>{{ transaction.type }}</td>
+                    <td>{{ transaction.address }}</td> <!-- Mostra l'indirizzo del destinatario -->
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+
+{% endblock %}

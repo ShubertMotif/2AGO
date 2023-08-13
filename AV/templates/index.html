@@ -1,0 +1,29 @@
+<!-- index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Homepage</h1>
+  <p>Il prezzo corrente di XMR è: {{ xmr_price }} $</p>
+  <hr>
+  {% for photo in photo_data %}
+        <h3>{{ photo[1] }}</h3>
+    <div class="photo-container">
+      <a href="{{ url_for('photo_detail', photo_id=photo[3]) }}">
+        <img src="{{ url_for('static', filename='uploads/' + photo[0]) }}" alt="Photo">
+      </a>
+<div style="text-align: center;">
+
+    <p>Descrizione:</p>
+    <p>{{ photo[2] }}</p>
+    <p>Caricato da: {{ photo[4] }}</p>
+    <img src="{{ url_for('static', filename='images/dollar_bill.png') }}" alt="Dollar Bill" width="30" height="60">
+    <p>Prezzo in Dollari: {{ photo[5] }}</p>
+    <img src="{{ url_for('static', filename='images/monero_coin.png') }}" alt="Monero Coin" width="30" height="30">
+    <p>Prezzo in Monero : {{ photo[6] }}</p>
+</div>
+
+
+    </div>
+    <hr>
+  {% endfor %}
+{% endblock %}

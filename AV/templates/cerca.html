@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Risultati della ricerca</h1>
+
+  <form action="{{ url_for('cerca') }}" method="POST">
+    <input type="text" name="search_text" placeholder="Inserisci il testo da cercare">
+    <button type="submit">Cerca</button>
+  </form>
+
+  {% if photos %}
+    {% for photo, user in photos %}
+      <div class="photo-container">
+        <a href="{{ url_for('photo_detail', photo_id=photo.id) }}">
+          <img src="{{ url_for('static', filename='uploads/' + photo.filename) }}" alt="Foto">
+        </a>
+        <h3>{{ photo.title }}</h3>
+        <p>{{ photo.description }}</p>
+        <p>Uploaded by: {{ user.username }}</p>
+        <p>Prezzo in Dollari: {{ photo.price_eur }}</p>
+        <p>Prezzo in Monero: {{ photo.price_monero }}</p>
+        <p> Provincia:{{photo.province}}</p>
+      </div>
+      <hr>
+    {% endfor %}
+  {% else %}
+    <p>Nessun risultato trovato.</p>
+  {% endif %}
+{% endblock %}

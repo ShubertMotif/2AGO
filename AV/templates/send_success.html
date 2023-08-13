@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Transazione Monero inviata con successo!</h2>
+    <p>Indirizzo destinatario: {{ recipent_address }}</p>
+    <p>Importo inviato: {{ amount_xmr }} XMR</p>
+    <p>Hash della transazione: {{ tx_hash }}</p>
+    <a href="{{ url_for('portafoglio_monero') }}" class="btn btn-primary">Torna al Portafoglio</a>
+{% endblock %}
