@@ -1,0 +1,26 @@
+<!-- transaction_confirmed.html -->
+
+{% extends "base.html" %}
+
+{% block title %}
+    Transazione confermata
+{% endblock %}
+
+{% block content %}
+    <h1>Transazione confermata</h1>
+
+    <h2>Dettagli della transazione</h2>
+    <p>Photo ID: {{ photo_id }}</p>
+    <p>Monero inviati al venditore: {{ xmr_to_seller }} XMR</p>
+    <p>Dollari inviati al venditore: {{ dollars_to_seller }} $</p>
+    <p>Monero di commissione: {{ xmr_commission }} XMR</p>
+    <p>Dollari di commissione: {{ dollars_commission }} $</p>
+
+    <h2>Messaggi di conferma</h2>
+    <p>Transazione commissione completata. Hash della transazione: {{ commission_message }}</p>
+
+    <!-- Aggiungi qui eventuali altri dettagli della transazione o informazioni aggiuntive -->
+
+    <!-- Aggiungi un pulsante o un link per tornare alla pagina della foto -->
+    <a href="{{ url_for('photo_detail', photo_id=photo_id) }}" class="btn btn-primary">Torna alla foto</a>
+{% endblock %}

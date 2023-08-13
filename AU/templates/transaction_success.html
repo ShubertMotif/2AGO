@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transazione completata con successo</title>
+</head>
+<body>
+    <h1>Transazione completata con successo</h1>
+    <p>La tua transazione è stata effettuata con successo!</p>
+    <p>Dettagli della transazione:</p>
+    <ul>
+        <li>Indirizzo del ricevente: {{ recipient_address }}</li>
+        <li>Quantità di XMR: {{ amount_xmr }}</li>
+        <li>Hash della transazione: {{ tx_hashes }}</li>
+    </ul>
+        <a href="{{ url_for('portafoglio_monero') }}" class="btn btn-primary">Torna al Portafoglio</a>
+</body>
+</html>

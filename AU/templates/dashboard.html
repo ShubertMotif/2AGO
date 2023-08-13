@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% if user %}
+    <p><h3>Dashboard di {{ user.username }}!</p></h3>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <hr>
+    <h4>Portafoglio Monero</h4>
+<div style="text-align: center;">
+    <p>Visualizza le informazioni del tuo portafoglio Monero:</p>
+    <a href="{{ url_for('portafoglio_monero') }}">
+        <img src="{{ url_for('static', filename='images/monero_icon.png') }}" alt="Monero Icon" width="180" height="60">
+        Portafoglio Monero
+    </a>
+</div>
+<hr>
+    <h4>Messaggi</h4>
+<div style="text-align: center;">
+    <p>Visualizza e invia messaggi:</p>
+    <a href="{{ url_for('messages') }}">
+        <img src="{{ url_for('static', filename='images/messages_icon.png') }}" alt="Messages Icon" width="120" height="120">
+        Messaggi
+    </a>
+</div>
+<hr>
+
+    <h4>Carica un nuovo oggetto in vendita</h4>
+
+<div style="text-align: center;">
+    <!-- Form per l'upload delle foto -->
+    <form method="POST" enctype="multipart/form-data" style="display: inline-block;">
+        <div class="form-group">
+            <label for="title">Titolo:</label>
+            <input type="text" name="title" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Descrizione:</label>
+            <input type="text" name="description" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="price_eur">Prezzo in $:</label>
+            <input type="number" name="price_eur" class="form-control" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="province">Provincia:</label>
+            <input type="text" name="province" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="photo">Foto:</label>
+            <input type="file" name="photo" class="form-control-file" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Carica Oggetto</button>
+    </form>
+</div>
+<hr>
+    <!-- Mostra le foto dell'utente -->
+    {% if user.photos %}
+      <h2>Le tue foto</h2>
+      {% for photo in user.photos | reverse %}
+        <div>
+          <a href="{{ url_for('photo_detail', photo_id=photo.id) }}">
+            <img src="{{ url_for('static', filename='uploads/' + photo.filename) }}" alt="Foto">
+          </a>
+          <h2>{{ photo.title }}</h2>
+          <p>{{ photo.description }}</p>
+          <p>Prezzo in €: {{ photo.price_eur }}</p>
+          <p>Prezzo in Monero: {{ photo.price_monero }}</p>
+          <p>Provincia: {{ photo.province }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>Non hai ancora caricato nessuna foto.</p>
+    {% endif %}
+
+  {% else %}
+    <p>Effettua l'accesso per visualizzare la dashboard.</p>
+  {% endif %}
+{% endblock %}

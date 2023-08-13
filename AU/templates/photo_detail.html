@@ -1,0 +1,23 @@
+<!-- photo_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Dettaglio Foto</h1>
+
+  <div class="photo-container">
+    <img src="{{ url_for('static', filename='uploads/' + photo.filename) }}" alt="Photo">
+    <h2>{{ photo.title }}</h2>
+    <p>{{ photo.description }}</p>
+    <p>Prezzo in Dollari: {{ photo.price_eur }}</p>
+    <p>Prezzo in Monero: {{ photo.price_monero }}</p>
+    <p>Provincia: {{ photo.province }}</p>
+    <p>Indirizzo Monero: {{ photo.monero_address }}</p>
+    <!-- Aggiungi il nome dell'utente -->
+    <p>Utente: {{ photo.user.username }}</p>
+  </div>
+  <br>
+  <!-- Aggiungi il link alla pagina conferma_trasazione -->
+  <h3><a href="{{ url_for('conferma_trasazione', photo_id=photo_id) }}" class="btn btn-primary">Acquista</a></h3><br>
+  <br>
+  <a href="{{ url_for('index') }}" class="btn btn-primary">Torna Indietro</a>
+{% endblock %}

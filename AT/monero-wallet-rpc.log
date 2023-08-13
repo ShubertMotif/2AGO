@@ -342,3 +342,16 @@
 2023-08-09 21:12:32.593	    7fe0a4df9640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <9a1cdd429442c363b51ffaedc7d36d8d3099ed76908b9b2d3172ff88215cb1db>
 2023-08-09 21:12:32.593	    7fe09f5fd640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <7b4a032394c4bf3ae5baffa6233e17a1db22e2a36150d7b2813f2e5bcb845762>
 2023-08-09 21:12:32.593	    7fe09ffff640	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <ea6b233a41bc9c3885323e18af2af5384a0e862f52e6da72d482fc6573680580>
+2023-08-09 21:17:38.773	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-09 21:17:38.773	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-09 21:17:39.062	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved
+2023-08-11 20:47:17.782	    7ff45e0ef7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-11 20:47:17.783	    7ff45e0ef7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-11 20:47:17.783	    7ff45e0ef7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-11 20:47:17.783	    7ff45e0ef7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-11 20:47:17.783	    7ff45e0ef7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-11 20:47:17.783	    7ff45e0ef7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-11 20:47:18.055	    7ff45e0ef7c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-11 20:51:08.080	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-11 20:51:08.080	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-11 20:51:08.255	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved

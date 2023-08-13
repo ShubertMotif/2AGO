@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invia Transazione Monero</title>
+</head>
+<body>
+    <h1>Invia Transazione Monero</h1>
+    <form method="POST" action="{{ url_for('send_monero_transaction') }}">
+        <div>
+            <label for="recipient_address">Indirizzo Destinatario:</label>
+            <input type="text" name="recipient_address" required>
+        </div>
+        <div>
+            <label for="amount_xmr">Quantità XMR:</label>
+            <input type="number" step="0.01" name="amount_xmr" required>
+        </div>
+        <div>
+            <button type="submit">Invia</button>
+        </div>
+    </form>
+</body>
+</html>

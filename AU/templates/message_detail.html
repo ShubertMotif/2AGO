@@ -1,0 +1,26 @@
+<!-- message_detail.html -->
+{% extends "base.html" %}
+
+{% block title %}
+    Dettaglio Messaggio
+{% endblock %}
+
+{% block content %}
+    <h1>Conversazione con {{ messages[0].recipient.username }}</h1>
+
+    <ul>
+        {% for message in messages %}
+            <li>
+                {% if message.sender_id == current_user.id %}
+                    <strong>Tu:</strong>
+                {% else %}
+                    <strong>{{ message.sender.username }}:</strong>
+                {% endif %}
+                {{ message.body }}
+                <br>
+                Data: {{ message.timestamp }}
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}

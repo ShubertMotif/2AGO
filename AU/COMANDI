@@ -1,0 +1,14 @@
+
+python3 -m venv myenv
+
+source myenv/bin/activate
+
+CHIUDERE TUTTI SCREEN
+screen -ls | grep -o '[0-9]*\.' | while read -r session; do screen -S "${session::-1}" -X quit; done
+
+
+rm -rf example_directory
+
+screen -r
+
+pip install -r requirements.txt
