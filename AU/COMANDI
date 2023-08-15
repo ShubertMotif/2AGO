@@ -1,3 +1,5 @@
+./monero-wallet-rpc --daemon-address stagenet.community.rino.io:38081 --wallet-dir wallet_python --rpc-bind-port 28080 --stagenet --disable-rpc-login
+
 
 python3 -m venv myenv
 
@@ -12,3 +14,5 @@ rm -rf example_directory
 screen -r
 
 pip install -r requirements.txt
+
+ screen -X -S [session # you want to kill] quit
