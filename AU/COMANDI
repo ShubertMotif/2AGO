@@ -16,3 +16,8 @@ screen -r
 pip install -r requirements.txt
 
  screen -X -S [session # you want to kill] quit
+
+ chmod +x start_monero_rpc.sh
+
+ ./start_monero_rpc.sh
+
