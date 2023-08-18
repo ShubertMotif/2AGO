@@ -722,3 +722,265 @@
 2023-08-13 19:28:43.672	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <5db191f25ec56eac44ffccae3fb967c265ecbcde31809334275839567a2e24a4>
 2023-08-13 19:31:54.063	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a3c8c7c38f69815393774faf5e426d97364498b87f12ef18cb2b0641a4dcf029>
 2023-08-13 19:32:37.138	[RPC0]	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:1920	Transaction extra has unsupported format: <a3c8c7c38f69815393774faf5e426d97364498b87f12ef18cb2b0641a4dcf029>
+2023-08-16 20:43:03.362	    7f92643287c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:03.362	    7f92643287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:03.362	    7f92643287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:03.362	    7f92643287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:03.362	    7f92643287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:03.370	    7f92643287c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:03.565	    7f92643287c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:05.309	    7f1e043947c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:05.656	    7f1e043947c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:05.656	    7f1e043947c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:07.324	    7ffaee5937c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:07.324	    7ffaee5937c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:07.324	    7ffaee5937c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:07.324	    7ffaee5937c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:07.324	    7ffaee5937c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:07.325	    7ffaee5937c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:07.693	    7ffaee5937c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:07.694	    7ffaee5937c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:09.343	    7fda3cc667c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:09.788	    7fda3cc667c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:09.788	    7fda3cc667c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:11.358	    7efc723e07c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:11.358	    7efc723e07c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:11.358	    7efc723e07c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:11.358	    7efc723e07c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:11.358	    7efc723e07c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:11.359	    7efc723e07c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:12.161	    7efc723e07c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:12.161	    7efc723e07c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:13.385	    7f75e4d057c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:14.118	    7f75e4d057c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:14.118	    7f75e4d057c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:15.398	    7f5a8a2627c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:15.764	    7f5a8a2627c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:15.764	    7f5a8a2627c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:17.412	    7f6fbe1047c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:17.412	    7f6fbe1047c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:17.412	    7f6fbe1047c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:17.412	    7f6fbe1047c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:17.412	    7f6fbe1047c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:17.413	    7f6fbe1047c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:17.753	    7f6fbe1047c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:17.753	    7f6fbe1047c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:19.429	    7f2c9cc207c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:19.429	    7f2c9cc207c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:19.429	    7f2c9cc207c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:19.429	    7f2c9cc207c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:19.429	    7f2c9cc207c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:19.430	    7f2c9cc207c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:20.565	    7f2c9cc207c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:20.565	    7f2c9cc207c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:21.438	    7fd8a0e4d7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:21.439	    7fd8a0e4d7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:21.439	    7fd8a0e4d7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:21.439	    7fd8a0e4d7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:21.439	    7fd8a0e4d7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:21.439	    7fd8a0e4d7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:21.904	    7fd8a0e4d7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:21.904	    7fd8a0e4d7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:23.453	    7f53be2457c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:23.454	    7f53be2457c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:23.454	    7f53be2457c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:23.454	    7f53be2457c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:23.454	    7f53be2457c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:23.454	    7f53be2457c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:23.669	    7f53be2457c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:23.669	    7f53be2457c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:25.469	    7f2e756787c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:25.469	    7f2e756787c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:25.470	    7f2e756787c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:25.471	    7f2e756787c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:25.471	    7f2e756787c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:25.471	    7f2e756787c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:25.509	    7f2e756787c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:43:25.509	    7f2e756787c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:43:26.887	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-16 20:43:26.887	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-16 20:43:26.887	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:43:27.485	    7f1b273587c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:43:27.872	    7f1b273587c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-16 20:44:39.264	    7fba4a4547c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:39.264	    7fba4a4547c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:39.264	    7fba4a4547c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:39.264	    7fba4a4547c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:39.264	    7fba4a4547c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:39.265	    7fba4a4547c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:39.506	    7fba4a4547c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:39.506	    7fba4a4547c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:41.280	    7f996952e7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:41.595	    7f996952e7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:41.595	    7f996952e7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:43.294	    7ff65e0147c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:44.432	    7ff65e0147c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:44.432	    7ff65e0147c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:45.303	    7fabeab287c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:45.303	    7fabeab287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:45.303	    7fabeab287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:45.303	    7fabeab287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:45.303	    7fabeab287c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:45.304	    7fabeab287c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:46.045	    7fabeab287c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:46.045	    7fabeab287c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:47.330	    7f5bb6c737c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:47.331	    7f5bb6c737c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:47.331	    7f5bb6c737c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:47.331	    7f5bb6c737c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:47.331	    7f5bb6c737c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:47.331	    7f5bb6c737c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:47.974	    7f5bb6c737c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:47.974	    7f5bb6c737c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:49.359	    7f427ddbe7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:49.359	    7f427ddbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:49.359	    7f427ddbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:49.359	    7f427ddbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:49.359	    7f427ddbe7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:49.360	    7f427ddbe7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:49.859	    7f427ddbe7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:49.859	    7f427ddbe7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:44:51.372	    7f12e8d307c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:44:51.372	    7f12e8d307c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:44:51.372	    7f12e8d307c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:44:51.372	    7f12e8d307c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:44:51.372	    7f12e8d307c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:44:51.373	    7f12e8d307c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:44:51.868	    7f12e8d307c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:44:51.868	    7f12e8d307c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:45:12.413	    7fc5c4c397c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:45:12.414	    7fc5c4c397c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:45:12.414	    7fc5c4c397c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:45:12.414	    7fc5c4c397c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:45:12.414	    7fc5c4c397c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:45:12.414	    7fc5c4c397c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:45:13.326	    7fc5c4c397c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:45:13.327	    7fc5c4c397c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:45:36.095	    7f92317827c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:45:36.338	    7f92317827c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:45:36.338	    7f92317827c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:46:01.378	    7f763c9a97c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:46:01.378	    7f763c9a97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:46:01.378	    7f763c9a97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:46:01.378	    7f763c9a97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:46:01.378	    7f763c9a97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:46:01.379	    7f763c9a97c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:46:01.568	    7f763c9a97c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:46:01.568	    7f763c9a97c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:47:58.774	    7fd07b6127c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:47:58.774	    7fd07b6127c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:47:58.774	    7fd07b6127c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:47:58.774	    7fd07b6127c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:47:58.774	    7fd07b6127c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:47:58.775	    7fd07b6127c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:47:59.011	    7fd07b6127c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:47:59.012	    7fd07b6127c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 20:59:28.090	    7f3f0384e7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 20:59:28.092	    7f3f0384e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 20:59:28.092	    7f3f0384e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 20:59:28.092	    7f3f0384e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 20:59:28.092	    7f3f0384e7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 20:59:28.092	    7f3f0384e7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 20:59:28.598	    7f3f0384e7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 20:59:28.598	    7f3f0384e7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 21:01:10.436	    7f44093667c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 21:01:10.557	    7f44093667c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 21:01:10.558	    7f44093667c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-16 21:04:53.724	    7f47aebff7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-16 21:04:53.995	    7f47aebff7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-16 21:04:53.995	    7f47aebff7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-17 11:52:13.542	    7f251e7ae7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-17 11:52:13.542	    7f251e7ae7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-17 11:52:13.543	    7f251e7ae7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-17 11:52:13.543	    7f251e7ae7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-17 11:52:13.543	    7f251e7ae7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-17 11:52:13.543	    7f251e7ae7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-17 11:52:14.108	    7f251e7ae7c0	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1277	Error starting server: Failed to bind IPv4 (set to required)
+2023-08-17 11:52:14.108	    7f251e7ae7c0	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4616	Failed to initialize wallet RPC server
+2023-08-18 17:43:11.866	    7f81b43fd7c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-18 17:43:11.866	    7f81b43fd7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-18 17:43:11.866	    7f81b43fd7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-18 17:43:11.866	    7f81b43fd7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-18 17:43:11.866	    7f81b43fd7c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-18 17:43:11.868	    7f81b43fd7c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-18 17:43:12.390	    7f81b43fd7c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-18 19:01:18.445	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-18 19:01:18.445	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-18 19:01:18.445	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved
+2023-08-18 19:01:28.479	    7f7949bb67c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-18 19:01:28.479	    7f7949bb67c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-18 19:01:28.480	    7f7949bb67c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-18 19:01:28.480	    7f7949bb67c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-18 19:01:28.480	    7f7949bb67c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-18 19:01:28.480	    7f7949bb67c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-18 19:01:29.099	    7f7949bb67c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-18 19:06:33.516	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-18 19:06:33.517	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-18 19:06:33.517	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-18 19:06:45.871	    7fbcf5ea97c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-18 19:06:46.476	    7fbcf5ea97c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
+2023-08-18 19:09:24.571	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4630	Stopped wallet RPC server
+2023-08-18 19:09:24.571	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4633	Saving wallet...
+2023-08-18 19:09:24.572	[SRV_MAIN]	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4635	Successfully saved
+2023-08-18 19:09:25.599	    7f15460e87c0	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2023-08-18 19:09:25.600	    7f15460e87c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2023-08-18 19:09:25.600	    7f15460e87c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2023-08-18 19:09:25.600	    7f15460e87c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Fluorine Fermi' (v0.18.2.2-release)
+2023-08-18 19:09:25.600	    7f15460e87c0	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2023-08-18 19:09:25.600	    7f15460e87c0	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2023-08-18 19:09:25.845	    7f15460e87c0	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4620	Starting wallet RPC server
