@@ -742,5 +742,20 @@ def get_wallet_balance(wallet_name, wallet_password):
 
 
 #ok
+def is_flask_alive():
+    response = requests.get('http://localhost:5000/')  # Cambia l'URL in base al tuo endpoint
+    return response.status_code == 200
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    while True:
+        try:
+            app.run(debug=True)
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            print("Waiting 2 seconds and retrying...")
+            time.sleep(2)
+
+            if not is_flask_alive():
+                print("Flask application still not responding. Retrying...")
+                continue
