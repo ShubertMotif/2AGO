@@ -3,15 +3,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mercato Monero</title>
+  <title>Monero Store ITA</title>
   {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   {% endblock %}
 </head>
 <body>
+
     <nav>
+        <div style="text-align: center; margin-top: 50px;">
+        <a href="{{ url_for('index') }}">
+         <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home Image" width="250" height="250">
+        </a>
+  </div>
         <ul>
             <h3>
+
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('cerca') }}">Cerca Foto</a></li>
             <li><a href="{{ url_for('converti_denaro_monero') }}">Converti Denaro Monero</a></li>
