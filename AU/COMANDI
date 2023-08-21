@@ -26,3 +26,5 @@ pip install -r requirements.txt
  ./start_monero_rpc.sh
 
 PROVA COMMIT
+
+git pull origin master

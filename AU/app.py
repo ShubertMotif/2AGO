@@ -7,6 +7,8 @@ import os
 import pyperclip
 import requests
 import json
+import time
+from requests.exceptions import ConnectionError
 
 
 app = Flask(__name__)
@@ -195,24 +197,40 @@ def register():
     return render_template('register.html', error='')
 
 
+def is_monero_rpc_alive():
+    try:
+        response = requests.get("http://localhost:28080/json_rpc")  # Adjust the URL based on your Monero RPC setup
+        return response.status_code == 200
+    except ConnectionError:
+        return False
+
+
+@app.route('/loading')
+def loading():
+    return render_template('loading.html')
+
 @app.route('/portafoglio_monero')
 @login_required
 def portafoglio_monero():
-    # Apri il portafoglio Monero
-    wallet_name = current_user.username
-    wallet_password = current_user.password
-    open_monero_wallet(wallet_name, wallet_password)
+    if is_monero_rpc_alive():
+        # Apri il portafoglio Monero
+        wallet_name = current_user.username
+        wallet_password = current_user.password
+        open_monero_wallet(wallet_name, wallet_password)
 
-    # Ottieni il seed, l'indirizzo e i bilanci del portafoglio
-    seed = get_wallet_mnemonic(wallet_name, wallet_password)
-    address = show_wallet_address(wallet_name, wallet_password)
-    balance, unlocked_balance = get_wallet_balance(wallet_name, wallet_password)
+        # Ottieni il seed, l'indirizzo e i bilanci del portafoglio
+        seed = get_wallet_mnemonic(wallet_name, wallet_password)
+        address = show_wallet_address(wallet_name, wallet_password)
+        balance, unlocked_balance = get_wallet_balance(wallet_name, wallet_password)
 
-    xmr_price = get_xmr_price()
-    balance_usd = "{:,.2f}".format(float(balance) * xmr_price) if xmr_price is not None else None
+        xmr_price = get_xmr_price()
+        balance_usd = "{:,.2f}".format(float(balance) * xmr_price) if xmr_price is not None else None
 
-    return render_template('portafoglio_monero.html', address=address, seed=seed, balance=balance, unlocked_balance=unlocked_balance, balance_usd=balance_usd)
-
+        return render_template('portafoglio_monero.html', address=address, seed=seed, balance=balance, unlocked_balance=unlocked_balance, balance_usd=balance_usd)
+    else:
+        print("Monero RPC is not responding. Redirecting to loading page...")
+        time.sleep(3)
+        return app.make_response(loading())
 
 @app.route('/photo/<int:photo_id>')
 def photo_detail(photo_id):
@@ -740,22 +758,5 @@ def get_wallet_balance(wallet_name, wallet_password):
 #######################################################
 #######################################################
 
-
-#ok
-def is_flask_alive():
-    response = requests.get('http://localhost:5000/')  # Cambia l'URL in base al tuo endpoint
-    return response.status_code == 200
-
-
 if __name__ == '__main__':
-    while True:
-        try:
-            app.run(debug=True)
-        except Exception as e:
-            print(f"An error occurred: {e}")
-            print("Waiting 2 seconds and retrying...")
-            time.sleep(2)
-
-            if not is_flask_alive():
-                print("Flask application still not responding. Retrying...")
-                continue
+    app.run(debug=True)

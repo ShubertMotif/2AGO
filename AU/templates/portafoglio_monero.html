@@ -11,15 +11,15 @@
     <h3>Indirizzo del portafoglio:</h3>
     <p id="address">{{ address }}</p>
     <button onclick="copyText('address')">Copia Indirizzo</button>
+    <h3>Seed del portafoglio:</h3>
     <button onclick="toggleSeed()">Mostra Seed</button>
     <div id="seedContainer" style="display: none;">
-        <h3>Seed del portafoglio:</h3>
         <p id="seed">{{ seed }}</p>
         <button onclick="copyText('seed')">Copia Seed</button>
     </div>
     <h3>Bilancio del portafoglio:</h3>
     <p>{{ balance }} XMR</p>
-    <h3>Bilancio del sbloccato:</h3>
+    <h3>Bilancio sbloccato:</h3>
     <p>{{ unlocked_balance }} XMR</p>
     <h3>Bilancio in dollari</h3>
     <p>{{balance_usd}} $</p>
